@@ -1,0 +1,148 @@
+/* font-family: 'Black Han Sans', sans-serif;
+font-family: 'Inter', sans-serif; */
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Black Han Sans', sans-serif;
+  color: #383838;
+}
+
+.container-fluid {
+  padding: 3% 5%;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.big-heading span {
+  color: #c76af2;
+}
+
+.description {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  color: #838383;
+  text-align: left;
+}
+
+.div-image {
+  text-align: right;
+}
+
+.title-image {
+  width: 75%;
+}
+
+.cta-button {
+  background-color: #bc2dff;
+  color: white;
+  margin: 5% 3% 5% 0;
+  width: max-content;
+  border-radius: 40px;
+  padding: 2% 5%;
+}
+
+.cta-button:hover {
+  background-color: white;
+  border: 3px solid #bc2dff;
+  color: #bc2dff;
+}
+
+.colored-light {
+  background-color: #faefff;
+}
+
+.feature {
+  text-align: center;
+  padding: 4%;
+}
+
+.icon-features {
+  color: #c76af2;
+  font-size: 3.5rem;
+}
+
+.icon-features:hover {
+  color: #bc2dff;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  margin: 15px auto;
+}
+
+.feature-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  color: #838383;
+}
+
+.white-section {
+  background-color: #fff;
+  padding: 5% 0;
+}
+
+.colored-section {
+  background-color: #bc2dff;
+}
+
+.div-form {
+  padding: 15%;
+  text-align: left;
+}
+
+.form-title {
+  color: white;
+  text-align: left;
+}
+
+label {
+  color: #f0d8fb;
+  font-weight: normal;
+}
+
+input,
+textarea {
+  background-color: transparent !important;
+  color: white !important;
+  border: 2px solid white !important;
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: inset 0 0 0 4px #c76af2, 0 0 5px 4px #c76af2 !important;
+  outline: none !important;
+}
+
+.form-button {
+  background-color: white;
+  font-size: medium;
+  color: #bc2dff;
+  width: max-content;
+  border-radius: 40px;
+  padding: 2% 5%;
+}
+
+.form-button:hover {
+  background-color: #bc2dff;
+  border: 3px solid white;
+  color: white;
+}
+
+.about-text {
+  padding: 10%;
+  text-align: left;
+}
