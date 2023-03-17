@@ -23,6 +23,7 @@ h3 {
   font-size: 3.5rem;
   line-height: 1.2;
   text-align: left;
+  overflow-wrap: break-word;
 }
 
 .big-heading span {
@@ -37,7 +38,7 @@ h3 {
 }
 
 .div-image {
-  text-align: right;
+  text-align: center;
 }
 
 .title-image {
@@ -145,4 +146,44 @@ textarea:focus {
 .about-text {
   padding: 10%;
   text-align: left;
+}
+
+.image-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-form a {
+  display: contents;
+}
+
+footer {
+  padding: 3% 3% 1%;
+}
+
+.footer-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  color: #e3adfd;
+}
+
+.social-icons {
+  margin: 5% 0;
+}
+
+.social-icons i {
+  color: #a2a2a2;
+  font-size: 1.2rem;
+  margin: 0 5px;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-copyright img {
+  max-width: 60px;
 }
