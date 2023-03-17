@@ -20,7 +20,7 @@ h3 {
 }
 
 .big-heading {
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   line-height: 1.2;
   text-align: left;
   overflow-wrap: break-word;
@@ -186,4 +186,25 @@ footer {
 
 .footer-copyright img {
   max-width: 60px;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    max-width: 30%;
+  }
+  .div-form {
+    padding: 0 20% 5%;
+  }
+
+  .image-first {
+    flex-direction: column-reverse;
+  }
+
+  .about-text {
+    padding: 0 10% 10%;
+  }
+
+  .div-image {
+    padding-top: 10%;
+  }
 }
