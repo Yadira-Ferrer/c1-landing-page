@@ -27,7 +27,7 @@ h3 {
 }
 
 .big-heading span {
-  color: #c76af2;
+  color: #b19cdf;
 }
 
 .description {
@@ -46,7 +46,7 @@ h3 {
 }
 
 .cta-button {
-  background-color: #bc2dff;
+  background-color: #8c7ace;
   color: white;
   margin: 5% 3% 5% 0;
   width: max-content;
@@ -56,8 +56,8 @@ h3 {
 
 .cta-button:hover {
   background-color: white;
-  border: 3px solid #bc2dff;
-  color: #bc2dff;
+  border: 3px solid #8c7ace;
+  color: #8c7ace;
 }
 
 .colored-light {
@@ -70,12 +70,12 @@ h3 {
 }
 
 .icon-features {
-  color: #c76af2;
+  color: #b19cdf;
   font-size: 3.5rem;
 }
 
 .icon-features:hover {
-  color: #bc2dff;
+  color: #8c7ace;
 }
 
 .feature-title {
@@ -96,7 +96,7 @@ h3 {
 }
 
 .colored-section {
-  background-color: #bc2dff;
+  background-color: #8c7ace;
 }
 
 .div-form {
@@ -110,7 +110,7 @@ h3 {
 }
 
 label {
-  color: #f0d8fb;
+  color: #e3defe;
   font-weight: normal;
 }
 
@@ -124,21 +124,21 @@ textarea {
 
 input:focus,
 textarea:focus {
-  box-shadow: inset 0 0 0 4px #c76af2, 0 0 5px 4px #c76af2 !important;
+  box-shadow: inset 0 0 0 4px #765ece, 0 0 5px 4px #765ece !important;
   outline: none !important;
 }
 
 .form-button {
   background-color: white;
   font-size: medium;
-  color: #bc2dff;
+  color: #8c7ace;
   width: max-content;
   border-radius: 40px;
   padding: 2% 5%;
 }
 
 .form-button:hover {
-  background-color: #bc2dff;
+  background-color: #8c7ace;
   border: 3px solid white;
   color: white;
 }
@@ -165,7 +165,7 @@ footer {
 .footer-title {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
-  color: #e3adfd;
+  color: #c1b6f2;
 }
 
 .social-icons {
@@ -188,6 +188,27 @@ footer {
   max-width: 60px;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #765ece;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #838383;
+}
+
 @media (max-width: 1028px) {
   .title-image {
     max-width: 30%;
@@ -205,6 +226,6 @@ footer {
   }
 
   .div-image {
-    padding-top: 10%;
+    padding-bottom: 5%;
   }
 }
